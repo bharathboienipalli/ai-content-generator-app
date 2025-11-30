@@ -1,0 +1,40 @@
+# 🔒 Environment variables (if used in frontend)
+
+.env
+.env.local
+.env.*.local
+
+# 🗂 Node modules
+
+node_modules/
+
+# 🚀 Vite build output
+
+dist/
+build/
+
+# ⚙️ Vite cache
+
+.vite/
+.cache/
+
+# 🧪 Logs
+
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# 🖥️ System files
+
+.DS_Store
+Thumbs.db
+
+# 🎨 Editor settings
+
+.vscode/
+.idea/
+
+# 🧹 Temporary files
+
+*.tmp
+*.log

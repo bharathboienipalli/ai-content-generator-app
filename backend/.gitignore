@@ -1,0 +1,52 @@
+# 🔒 Ignore environment variables
+
+.env
+.env.local
+.env.*.local
+
+# 🗂 Node modules
+
+node_modules/
+*/node_modules/
+
+# 🔧 Logs
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# 🚀 Build output
+
+dist/
+build/
+.cache/
+
+# ⚙️ Vite specific
+
+.vite/
+
+# 📦 Dependencies and lock files (optional to exclude)
+
+package-lock.json
+pnpm-lock.yaml
+
+# 🖥️ System files
+
+.DS_Store
+Thumbs.db
+
+# 🧪 Temp files
+
+*.tmp
+*.log
+
+# 🔥 Backend specific
+
+backend/.env
+backend/.env.local
+
+# 🎨 Editor folders
+
+.vscode/
+.idea/
